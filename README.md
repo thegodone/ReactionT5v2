@@ -28,6 +28,7 @@ pip install transformers==4.40.2
 pip install datasets
 pip install accelerate -U
 pip install scikit-learn
+pip install sentencepiece
 ```
 
 
