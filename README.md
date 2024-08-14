@@ -19,8 +19,10 @@ In this repository, we will demonstrate how to use ReactionT5 for product predic
 # Setup
 ReactionT5 is based on the transformers library. Additionally, RDKit is used for validity check of predicted compounds. To install these and other necessary libraries, use the following commands:
 ```
-pip install rdkit
-pip install pytorch
+conda create -n RT5v2 python=3.8 -y
+conda activate RT5v2
+pip install rdkit==2024.03.5
+pip install torch==2.4.0
 pip install tokenizers==0.19.1
 pip install transformers==4.40.2
 pip install datasets
